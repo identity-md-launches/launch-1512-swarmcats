@@ -1,0 +1,27 @@
+{
+  "kind": "evm_project",
+  "token": {
+    "contract": "LaunchToken",
+    "name": "Loom",
+    "symbol": "LOOM",
+    "decimals": 18
+  },
+  "contracts": [
+    {
+      "contract": "SwarmCats",
+      "constructorArgs": [
+        "$owner",
+        "$owner",
+        "$owner",
+        "$owner"
+      ]
+    }
+  ],
+  "pool": {
+    "pairedCurrency": "0x0000000000000000000000000000000000000000",
+    "fee": 12500,
+    "tickSpacing": 60,
+    "initialPrice": "79228162514264337593543950336"
+  },
+  "notes": "Sepolia release of Swarm Cats with the Loom launch token. SwarmCats constructor arguments are initialOwner, creator, platform and reserve, all resolving to $owner. The collection's name, symbol, supply cap, mint fee and wallet limit are fixed in the accepted source. The collection has no dependency on the launch token. Metadata URIs start empty; the owner supplies the real provenance hash once before any mint and configures metadata after deployment. The reveal seed is an owner-submitted oracle value without on-chain oracle verification. No factory initialization calls are required. The factory supplies the pool guard and MerkleDistributor. The pool values follow the launch context; the deployer derives the effective opening price from the policy's 20 ETH opening market cap. Source publication, attestation, independent review, admission, deployment and frontend publication are handled by subsequent launch stages."
+}
