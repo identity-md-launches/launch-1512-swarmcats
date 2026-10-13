@@ -1,0 +1,77 @@
+[
+  {
+    "name": "openzeppelin-contracts",
+    "repository": "https://github.com/OpenZeppelin/openzeppelin-contracts",
+    "release": "v5.1.0",
+    "archive": "https://codeload.github.com/OpenZeppelin/openzeppelin-contracts/tar.gz/refs/tags/v5.1.0",
+    "archiveSha256": "8a3b08cfc756437ba3343901565b18182adb42ec1e621960240a19da5d738686",
+    "files": {
+      "LICENSE": "8b3fddff3cff904ab9bd7c48a9288fb08ab4f47b179c07af6df7886b12cb04d6",
+      "contracts/access/Ownable.sol": "38578bd71c0a909840e67202db527cc6b4e6b437e0f39f0c909da32c1e30cb81",
+      "contracts/access/Ownable2Step.sol": "c75345d7b9feef17ae29f2a800ca2f65f8021cf80436a41d6ec00f57f5180f36",
+      "contracts/interfaces/IERC2981.sol": "6a8ea184edb362922fb260ba9c43dc867e3b32cd3547d3de9299344cdf91c635",
+      "contracts/interfaces/draft-IERC6093.sol": "56380323009ef4a119d44550b910fde1bff9cedde8f7f4c690152c7629bc3338",
+      "contracts/token/ERC20/ERC20.sol": "be0df7e4b899a61a4beb3c8675088de494866438600ce2d529523807b558cf64",
+      "contracts/token/ERC20/IERC20.sol": "30edf7394bab78d48b7db3a059248e1ea7c2c77d2ec0e37a13bb91415aafbe5a",
+      "contracts/token/ERC20/extensions/IERC20Metadata.sol": "9e7c70ec72d2f7d592e23ea84f3852b04f91f6f644ce57e0263493046b36afb9",
+      "contracts/token/common/ERC2981.sol": "e92ef291a91d7cf4bf178ea19abe680d2d9970f0c2cf24c57f01160639269e44",
+      "contracts/utils/Context.sol": "847fda5460fee70f56f4200f59b82ae622bb03c79c77e67af010e31b7e2cc5b6",
+      "contracts/utils/Pausable.sol": "6543160582b3c0319a180f31660faf6ba0a8444acbdb03357c09790a96256835",
+      "contracts/utils/ReentrancyGuard.sol": "32fbb1c908ec1b4de85cc1bb10091aebd5816ffe80dfdd5ca5e084fbea67a462",
+      "contracts/utils/introspection/ERC165.sol": "7fdc4dc9e3872f6a4c1ec9cfa9583a1fc18ccd7a416397a6e698bd5bbf92f32b",
+      "contracts/utils/introspection/IERC165.sol": "7c5c3f98ab876991e7dd34b84d41137e836306eb9f36f6386a631f5be3f5d6d4",
+      "package.json": "c57ecc49cdadc103b019cf7617c9415d9678c85f329792bb7518a19786a4a23d"
+    }
+  },
+  {
+    "name": "erc721a",
+    "repository": "https://github.com/chiru-labs/ERC721A",
+    "release": "v4.3.0",
+    "archive": "https://codeload.github.com/chiru-labs/ERC721A/tar.gz/refs/tags/v4.3.0",
+    "archiveSha256": "f5880a0f8b53f5e3dab68e1a5dc32f3551b07279636d88638093a4b83c5c2899",
+    "files": {
+      "contracts/ERC721A.sol": "79a309548fceac7996545154fc705947728932b187794e4de4fd9c354b156ac0",
+      "contracts/IERC721A.sol": "cd411799895996e5c1ec6074306ef0b75c42e8ae1b969aa36757640433fdc144",
+      "package.json": "03b429e95cc2b5e0cf3aa450a1e3ebddae694da3224e8675c0392a42d7961c88",
+      "LICENSE.txt": "f68f7eaa627c15485b1a3b9383f495bdb1987feb6fc63da1bc773538ebdaf0b4"
+    }
+  },
+  {
+    "name": "forge-std",
+    "repository": "https://github.com/foundry-rs/forge-std",
+    "release": "v1.9.4",
+    "archive": "https://codeload.github.com/foundry-rs/forge-std/tar.gz/refs/tags/v1.9.4",
+    "archiveSha256": "9bf191808ba79584a69ee4f288bfb9f217d1187c43d46f59780d86cab9196a15",
+    "files": {
+      "LICENSE-APACHE": "50b6bf8bdb63265ce14953b480b7aaa0271e78f56843b99c184abd3ae5048cd7",
+      "LICENSE-MIT": "6d185dfe089d4de346d391fc5997fbd4739bad1d6556010413c10f420d704ecc",
+      "package.json": "7599a39624610cbf91a23237a2d1563da51317baf2f2fd9cc5b54089290f220a",
+      "src/Base.sol": "d5a2918c9ba38629bcf1c8b5206a0b779eb92576bbebec2024ec6438562ecf74",
+      "src/Script.sol": "c4de2ae936fa7bb4f4250a3908c6bce7acdc84034156cb252fdc2d9a1c020012",
+      "src/StdAssertions.sol": "d4c89eec70d267dec6188461fbc74d3dc8c47e518d176a23417533a232ed9780",
+      "src/StdChains.sol": "ea677f924a6cecdaa4e28002cc8a013698e35813072ae79e4dcb9330f4f32928",
+      "src/StdCheats.sol": "cbdfdadacf12e0b6cab311420fb8543ce8105fe794ecdb73d905e46ec09d027c",
+      "src/StdError.sol": "82ca17e33a03775e95b4612bd604a8732c73b2982a0278d214e06c68a886dc11",
+      "src/StdInvariant.sol": "f572e991cfe874844b3b75a540e38e2161c29b5d9ab1635a3c4f1a16c548f987",
+      "src/StdJson.sol": "0211b47e93dbeb6a7de6112470a77137038ed73b79b015847f013e49fcd7511f",
+      "src/StdMath.sol": "f04fc0616741563eb32d66c11af7fdca55a7202221e14282268c7be851fc63ab",
+      "src/StdStorage.sol": "c6dbb05b29be5bcbfabf06ea46b64fe9fbdb7542681795614ca3dee248214215",
+      "src/StdStyle.sol": "324c2b0e100e88edbdb75f60f8a4c42f056f8d618ae5f56b1c404df64e8280a7",
+      "src/StdToml.sol": "de3fb35af79a1fd2a2de9bc4ca7866e4102f9d3fbf11f66f3fe82696412d47e2",
+      "src/StdUtils.sol": "8bb419a63d92061cf943160bf35e164a425910f46efd8516869e07d2ab71d534",
+      "src/Test.sol": "242f2494d264bf00515b7bfcb5a3e6cbc3e737d03795105cbf19f68d8b640dd9",
+      "src/Vm.sol": "9ed10705966cec6d7e92a705659039aa8859c8d34bf2e6ba83de7165e984ea91",
+      "src/console.sol": "896c5a5a5c235cb11a39876d430e1fc2c621e7950c4637ca58251b84b053f178",
+      "src/console2.sol": "3bbe2e07ec53d8cf9c091667fe10234fcb3e2b45eab2c711002188806f46e779",
+      "src/interfaces/IERC1155.sol": "8bb8592c2e1005b0e180215a48f945993eca98561672cfbe6375eb987f5a6ef8",
+      "src/interfaces/IERC165.sol": "9bdab733bba2df028853aef1f5e06871fb4157d15c3c6a670be13f9b614c193b",
+      "src/interfaces/IERC20.sol": "283cedb0cf82640370b77b8a42175bc417c69a02d8989ac6d6a99be2157acd4d",
+      "src/interfaces/IERC4626.sol": "f831df3fcac8dc44b0ae02a61f0d86d3e9f50d71cc74e52f7643ad695d6cab65",
+      "src/interfaces/IERC721.sol": "f44e47686226be0889c4a21f782d653c2ebba509c0c13197edf6a5f1567c52a6",
+      "src/interfaces/IMulticall3.sol": "6620d9c5ea2e2291440e1dcce5072f948b7ec4d65075876a0d0ac9267d3342e3",
+      "src/mocks/MockERC20.sol": "6d200d98f43e9090138c66589f2c65e5e30ffc150b48547ebf6de93bcdc00183",
+      "src/mocks/MockERC721.sol": "f66d07f09db8532278c9d4a3c63feafc86a38ea0e0d94b761e9aba3326433e81",
+      "src/safeconsole.sol": "ed11aa2efc83fa8e575215a11dd7a9be385cf49dacbc379630168d7334899e46"
+    }
+  }
+]
